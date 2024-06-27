@@ -20,8 +20,8 @@ db.sqlite3-journal
 venv/
 env/
 
-# Ignore the settings file that contains sensitive information
-
+# Ignore the .idea directory for JetBrains IDEs
+.idea/
 
 # Ignore migrations
 **/migrations/
