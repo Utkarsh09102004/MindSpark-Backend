@@ -1,7 +1,5 @@
-asgiref==3.7.2
 asgiref==3.8.1
 channels==4.1.0
-Django==5.0.2
 Django==5.0.4
 django_channels_jwt==0.0.3
 django_channels_jwt_auth_middleware==1.0.0
