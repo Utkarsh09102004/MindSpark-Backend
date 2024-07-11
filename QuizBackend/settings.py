@@ -52,6 +52,7 @@ SIMPLE_JWT = {
 # Application definition
 
 INSTALLED_APPS = [
+    "auths",
     'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -61,7 +62,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "rest_framework",
     "corsheaders",
-    "authentication",
     "QuizApp"
 ]
 

@@ -4,6 +4,7 @@ import string
 import random
 
 class Session(models.Model):
+    name = models.CharField(max_length=255, null=True)
     start_time = models.DateTimeField()
     max_participants = models.IntegerField()
     unique_code = models.CharField(max_length=6, unique=True)
